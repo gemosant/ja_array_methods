@@ -1,16 +1,7 @@
 // fill() metodu bir dizideki başlangıçtan (default: 0) 
 // bitişe kadar (default: array.length) elemanları statik değişkene dönüştürür.
 
-/*  
-        kullanımı:
-    array.fill(parametre1, parametre2, parametre3)
 
-    parametre1: diziye yerleştirilecek olan eleman (string, int, bool, double ...)
-    parametre2: değiştirilecek aralığın başlangıç indexi array[i]
-    parametre3: değiştirilecek aralığın bitiş indeksi array[j]
-*/
-
-//örnek olarak bir dizi oluşturalım
 const dizi1 = [true, 3.14, 42, "kodluyoruz.org", 7, "java"]
 console.log("dizi-1: ", dizi1)
 

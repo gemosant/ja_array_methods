@@ -26,4 +26,4 @@ function testFonksiyonu(sehir){
     return sehir.plaka === 16
 }
 
-console.log(sehirler.find(testFonksiyonu))
+console.log(sehirler.find(testFonksiyonu)) //plakası 16 olan ilk değeri döndürecek
