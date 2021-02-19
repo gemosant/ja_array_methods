@@ -2,8 +2,8 @@
 // true veya false değer döndürür
 
 
-const isBelowThreshold = (deger) => deger < 42;
+const kucuk = (deger) => deger < 42
 
-const array1 = [17, 10, 29, 5, 11, 37];
+const array1 = [17, 10, 29, 5, 11, 37]
 
-console.log(array1.every(isBelowThreshold)); //tüm sayılar 42 den küçük ise true döndürür
+console.log(array1.every(kucuk)) //tüm sayılar 42 den küçük ise true döndürür
